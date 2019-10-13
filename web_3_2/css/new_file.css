@@ -1,0 +1,120 @@
+.head
+{
+	width: 1000px;
+	height: 100px;
+	margin: 0px  auto;
+	background-color: aqua;
+}
+.boby_
+{
+	width: 880px;
+	height: 1600px;
+	margin: 0px  auto;
+	background-color: aquamarine;
+}
+.boby_1
+{
+	width: 616px;
+	height: 100%;
+	background-color: bisque;
+	float: left;
+}
+.boby_2
+{
+	width: 264px;
+	height: 100%;
+	float: left;
+}
+.boby_1-1
+{
+	width: 616px;
+	height: 50px;
+	background-color: azure;
+}
+.boby_1-2
+{
+	border: dotted cornflowerblue;
+}
+.boby_1-3
+{
+	border: dotted darksalmon;
+}
+.boby_1-4
+{
+	width: 616px;
+	height: 50px;
+	background-color: deepskyblue;
+}
+.boby_1-5
+{
+	width: 611px;
+	height: 250px;
+	background-color: #F0FFFF;
+	float: left;
+	border: dashed dodgerblue;
+}
+img
+{
+	display: inline-block;
+	align-content: center;
+}
+.boby_1-6
+{
+	width: 616px;
+	height: 50px;
+	float: left;
+	background-color: #F0FFFF;
+}
+.boby_1-7
+{
+	width: 610px;
+	height: 250px;
+	border: dotted darkorange;
+	float: left;
+}
+.boby_2-1
+{
+	width:264px;
+	height: 50px;
+	background-color: chartreuse;
+}
+.boby_2-2
+{
+	width: 264px;
+	height: 100%;
+}
+.latter
+{
+	width: 1000px;
+	height: 1000px;
+	margin: 0px auto;
+	background-color: bisque;
+}
+.latter_1
+{
+	width: 100%;
+	height: 50px;
+	background-color: cornflowerblue;
+}
+.latter_2
+{
+	width: 1000px;
+	float: left;
+	padding: 41px;
+}
+.latter_3
+{
+	width: 1000px;
+	float: left;
+	padding: 41px;
+}
+.latter_4
+{
+	width: 1000px;
+	float: left;
+	padding: 41px;
+}
+body
+{
+	background-image: url(../img/5-150212233529-51.jpg);
+}

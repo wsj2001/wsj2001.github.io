@@ -5,15 +5,16 @@ body
 }
 .head
 {
-	width:100%;
+	width:1000px;
 	height: 80px;
 	background-color: crimson;
+	margin: 0px auto;
 }
 .box1
 {
 	width: 880px;
 	height: 30px;
-	margin: 0px 300px 0px;
+	margin: 0px auto 0px;
 	background-color: darkolivegreen;
 }
 .box1_1
@@ -40,7 +41,7 @@ body
 {
 	width: 880px;
 	height: 1650px;
-	margin: 0px 300px;
+	margin: 0px auto;
 }
 .boby_head
 {
@@ -109,7 +110,7 @@ body
 {
 	width: 880px;
 	height: 150px;
-	margin: 0px 300px;
+	margin: 0px auto;
 }
 .last_1
 {
