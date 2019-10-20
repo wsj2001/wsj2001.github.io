@@ -1,0 +1,199 @@
+.head
+{
+	width: 1000px;
+	margin: auto;
+	height: 100px;
+	background-color: aquamarine;
+}
+.boby
+{
+	width: 950px;
+	background-color: antiquewhite;
+	margin: auto;
+}
+.boby_1
+{
+	width: 290px;
+	height: 100%;
+	float: left;
+	margin: 10px;
+	border-bottom-style: solid;
+	border-color: fuchsia;
+}
+.boby_2
+{
+	width: 290px;
+	height: 100%;
+	float: left;
+	margin: 10px;
+	border-bottom-style: solid;
+	border-color: coral;
+}
+.boby_3
+{
+	width: 290px;
+	height: 100%;
+	float: left;
+	margin: 10px;
+	border-bottom-style: solid;
+	border-color: #8A2BE2;
+}
+.boby_2-2
+{
+	border-radius: 8px;
+	background-color: coral;
+}
+.boby_2-1
+{
+	width: 250px;
+	margin: auto;
+	float: none;
+}
+.boby_3-1
+{
+	width: 250px;
+	margin: auto;
+	float: none;
+}
+.boby_3-2
+{
+	border-radius: 8px;
+	background-color: blueviolet;
+}
+.boby_1-2
+{
+	border-radius: 8px;
+	background-color: fuchsia;
+}
+.boby_1-1
+{
+	width: 250px;
+	margin: auto;
+	float: none;
+}
+.boby_4
+{
+	width: 290px;
+	height: 100%;
+	float: left;
+	margin: 10px;
+	border-bottom-style: solid;
+	border-color: fuchsia;
+}
+.boby_5
+{
+	width: 290px;
+	height: 100%;
+	float: left;
+	margin: 10px;
+	border-bottom-style: solid;
+	border-color: coral;
+}
+.boby_6
+{
+	width: 290px;
+	height: 100%;
+	float: left;
+	margin: 10px;
+	border-bottom-style: solid;
+	border-color: #8A2BE2;
+}
+.boby_5-2
+{
+	border-radius: 8px;
+	background-color: coral;
+}
+.boby_5-1
+{
+	width: 250px;
+	margin: auto;
+	float: none;
+}
+.boby_6-1
+{
+	width: 250px;
+	margin: auto;
+	float: none;
+}
+.boby_6-2
+{
+	border-radius: 8px;
+	background-color: blueviolet;
+}
+.boby_4-2
+{
+	border-radius: 8px;
+	background-color: fuchsia;
+}
+.boby_4-1
+{
+	width: 250px;
+	margin: auto;
+	float: none;
+}
+.box1
+{
+	width: 1000px;
+	margin: auto;
+	background-color: aquamarine;
+	float:  initial;
+	margin-top:480px;
+	border:ridge #8A2BE2;
+	border-width: 8px;
+}
+.box1-1
+{
+	width: 700px;
+	float: left;
+	padding: 10px;
+}
+.box1-2
+{
+	width: 200px;
+	height: 400px;
+	float: left;
+	margin-top:10px ;
+	padding: 10px;
+	background-color: aqua;
+	
+}
+.box2
+{
+	width: 1000px;
+	margin: auto;
+	background-color: aquamarine;
+	float:  initial;
+}
+.box2-1
+{
+	width: 700px;
+	float: left;
+	padding: 10px;
+}
+.box2-2
+{
+	width: 200px;
+	height: 400px;
+	float: left;
+	margin-top:10px ;
+	padding: 10px;
+	background-color: #FAEBD7;
+	
+}
+.last
+{
+	width: 1000px;
+	margin-top: 880px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 50px;
+	background-color: azure;
+}
+a
+{
+	text-decoration:none;
+}
+a:hover
+{
+	color: #DC143C;
+}
