@@ -1,0 +1,234 @@
+body
+{
+	margin: 0px;
+	background-color: lavender;
+}
+.m-privacy 
+{
+				position: fixed;
+				left: 0;
+				top: 0;
+				bottom: 0;
+				right: 0;
+				z-index: 1000001;
+				background: rgba(0, 0, 0, .3);
+				display: none
+			}
+			
+			.m-privacy .privacy-content {
+				position: absolute;
+				width: 720px;
+				left: 0;
+				right: 0;
+				top: 50%;
+				margin: 0 auto;
+				height: 511px;
+				background: #fff;
+				margin-top: -255px
+			}
+			
+			.m-privacy .privacy-title-box {
+				color: #000;
+				text-align: center
+			}
+			
+			.m-privacy .privacy-title-box .privacy-title {
+				font-size: 18px;
+				line-height: 18px;
+				padding: 20px 0
+			}
+			
+			.m-privacy .privacy-title-box .privacy-time {
+				font-size: 14px;
+				line-height: 14px
+			}
+			
+			.m-privacy .privacy-con {
+				height: 356px;
+				margin-bottom: 18px;
+				margin-top: 10px;
+				padding: 0 16px
+			}
+			
+			.m-privacy .privacy-iframe {
+				border: none
+			}
+			
+			.m-privacy .privacy-auth
+			 {
+				height: 54px;
+				line-height: 54px;
+				border-top: 1px solid #e5e5e5;
+				margin: 0 26px
+			}
+			
+			.m-privacy .privacy-auth .links 
+			{
+				color: #419bf9;
+			}
+			
+			.m-privacy .privacy-auth .privacy-icon 
+			{
+				width: 18px;
+				height: 18px;
+				display: inline-block;
+				vertical-align: middle;
+				background: url(https://img1.gtimg.com/chinanba/pics/hv1/87/12/2312/150340947.png) 0 0/cover no-repeat;
+				-webkit-border-radius: 50%;
+				-moz-border-radius: 50%;
+				border-radius: 50%;
+				margin-right: 8px;
+				position: relative;
+				top: -2px
+			}
+.head
+{
+	height: 100px;
+	margin: auto;
+	width:100%;
+	background-color: #006bb7 ;
+	overflow: hidden;
+}
+.head0
+{
+	height: 100px;
+	width: 1200px;
+	margin: 0px auto;
+}
+img
+{
+	border-radius: 8px;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+.head1
+{
+	float: left;
+}
+.head2
+{
+	float: left;
+	margin-top: 20px;
+}
+.head3
+{
+	float: left;
+	margin-top: 20px;
+}
+.head2 p
+{
+font-size:35px ;
+color: aliceblue;
+margin-left: 10px;
+font-weight: 900;
+}
+.head2 a
+{
+	text-decoration: none;
+	color: aliceblue;
+}
+.head3 a
+{
+	text-decoration: none;
+	font-size: 35px;
+	margin-left: 10px;
+	font-weight: 900;
+	color: cornflowerblue;
+}
+li a
+{
+    width:80px;
+    text-decoration: none;
+    display: block;
+    color: aliceblue;
+    font-weight: 900;
+}
+ul
+{
+   list-style-type: none;
+    padding: 0;
+}
+ul
+{
+	margin: auto;
+	padding-left:295px;
+	width:1224px;
+	height: 20px;
+	background-color: #006BB7;
+	float: left;
+}
+li
+{
+    float: left;
+}
+li a:hover
+{
+	color: #6495ED;
+}
+.head5
+{
+	float: right;
+}
+.nav-menu
+{
+	float: right;
+}
+.head5 a
+{
+	color: aliceblue;
+	font-size: 20px;
+	width: 20px;
+}
+.boby_1
+{
+	margin-top: 20px;
+}
+.boby_1-1 p
+{
+	color: crimson;
+	font-size: 30px;
+}
+.news
+{
+	width: 220px;
+	margin-top: 10px;
+}
+.news-0;
+{
+	width: 250px;
+	background-color:  #E5E5E5;
+	float: right;
+	margin: 10px;
+}
+.boby_1-1
+{
+	float: left;
+	width: 500px;
+	height: 450px;
+	background-color:  #419BF9;
+	margin: 10px;
+}
+.news-1
+{
+	width: 340px;
+	margin: 10px;
+    height:460px ;
+    background-color:;
+    float: left;
+}
+.qux1
+{
+	border-bottom:  solid #E5E5E5;
+}
+.qux2
+{
+	border-bottom:  solid #E5E5E5;
+}
+.qux3
+{
+	border-bottom:  solid #E5E5E5;
+}
+.qux4
+{
+	border-bottom:  solid #E5E5E5;
+}
