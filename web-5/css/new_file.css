@@ -232,3 +232,17 @@ li a:hover
 {
 	border-bottom:  solid #E5E5E5;
 }
+.boby_3
+{
+	border-bottom: solid #E5E5E5;
+	width: 750px;
+	float: left;
+}
+.text-1
+{
+    color: #006BB7;
+    display: block;
+	font-size: 25px;
+	margin-left: 10px;
+	border-bottom: solid #DC143C;
+}
