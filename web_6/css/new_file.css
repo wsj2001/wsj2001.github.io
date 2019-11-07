@@ -50,7 +50,7 @@
 	float: right;
 	width: 140px;
 	height: 100%;
-	background-color:  dodgerblue;
+	background-color:dodgerblue;
 	border-radius: 20px;
 }
 .sogo-1 a
@@ -59,7 +59,7 @@
 	font-weight: 900;
 	text-decoration: none;
 	font-size: 25px;
-	float: "";
+	margin-bottom:100px ;
 }
 .sogo-2
 {
@@ -173,7 +173,7 @@
 {
 	width: 420px;
 	float: left;
-	background-color: #00BFFF;
+	background-color:;
 	margin:10px 10px 0px 20px  ;
 }
 .xinwen1-head
@@ -285,6 +285,72 @@
 	margin-left: 25px;
 }
 .boby1-2-1 a:hover
+{
+	color: #1E90FF;
+}
+.ty-1-1 a
+{
+	font-size:25px;
+	color:  #1E90FF;
+	margin: 25px 0px;
+	font-weight:900 ;
+	text-decoration: none;
+	border-bottom: solid #1E90FF;
+}
+.ty
+{
+	width: 100%;
+	border-bottom:solid  azure ;
+	border-bottom-width:5px ;
+	float: left;
+}
+.ty-1-1
+{
+	width:;
+	float:left;
+}
+.ty-1-2
+{
+	float: left;
+	border-right: solid #DCDCDC;
+	border-width: 2px;
+}
+.ty-1-2 a
+{
+	font-size:15px;
+	color: #00BFFF;
+	margin: 25px 5px;
+	text-decoration: none;
+}
+.ty-1-3
+{
+	float:right ;
+}
+.ty-1-3 a
+{
+	font-size:15px;
+	color:  #000000;
+	margin-top: 20px;
+	text-decoration: none;
+}
+.ty-1-3 a:hover
+{
+	color: #1E90FF;
+}
+.news-list
+{
+	width: 100%;
+	list-style: none;
+	padding-left: 0px;
+}
+.news-list a
+{
+	font-size:20px;
+	color:  #000000;
+	margin-top: 20px;
+	text-decoration: none;
+}
+.news-list a:hover
 {
 	color: #1E90FF;
 }
