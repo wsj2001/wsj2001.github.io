@@ -100,7 +100,7 @@
      ul li {
      	display: block;
      	list-style: none;
-     	height:300px;
+     	height:305px;
      	width: 605px;
      	margin: 20px;
      	text-align: center;
@@ -108,8 +108,7 @@
      }
      ul li:hover
      {
-     	border: solid blueviolet;
-     	border-width: 5px;
+     	height: 315px;
      }
 .clearfix:before
 {
@@ -118,6 +117,9 @@
 	content: "\20";
 	height: 0px;
 }
-
+img:hover
+{
+	border: solid blueviolet;
+}
 
 			
