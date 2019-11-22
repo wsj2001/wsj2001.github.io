@@ -1,0 +1,23 @@
+.head
+{
+	margin: 0px auto;
+	background-color: aquamarine;
+	width: 100%;
+}
+.head p
+{
+	font-size: 50px;
+}
+.boby
+{
+	width: 500px;
+	margin: auto;
+}
+<a>
+{
+	text-decoration: none;
+}
+input
+{
+	display: inline;
+}

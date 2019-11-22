@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>学生信息登记表</title>
+		<link rel="stylesheet" href="css/new_file.css" />
+		<script type="text/javascript">
+			var count = 2;
+
+			function createNewTr() {
+				var table = document.getElementById("tab");
+				var newTr = document.createElement("tr");
+
+				td1 = document.createElement("td");
+				td1.innerHTML = count;
+
+				td2 = document.createElement("td");
+				td2span = document.createElement("span");
+				td2.appendChild(td2span);
+				td2span.innerHTML = document.myform.xingming.value;
+				td2span.addEventListener("mouseover", function() {
+					this.style.color = "red";
+				});
+				td2span.addEventListener("mouseover", function() {
+					this.style.color = "black";
+				})
+
+				td3 = document.createElement("td");
+				td3.innerHTML = document.myform.xingbie.value;
+
+				td4 = document.createElement("td");
+				td4.innerHTML = "<a href='javascript:void(0)' onclick='deleteTr()'></a>"
+
+				table.append(newTr);
+				  newTr.appendChild(td1);
+				  newTr.appendChild(td2);
+				  newTr.appendChild(td3);
+				  newTr.appendChild(td4);
+				  
+				  count = count + 1;
+			}
+
+			function deleteTr(obj) {
+				tr = obj.parentNode.parentNode;
+				tboby = tr.parentNode;
+				tr.removeChild(obj);
+			}
+		</script>
+	</head>
+
+	<body>
+		<div class="head">
+			<p align="center">学生登记信息表</p>
+		</div>
+		<form name="myform">
+			NAME:<input type="text" name="xingming" /> NUMBER:
+			<input type="number" name="xingbie" />
+		</form>
+		<button onclick="createNewTr()">增加</button>
+		<table id="tab" border="1" style="border-collapse: collapse;">
+
+			<tr>
+				<th>编号</th>
+				<th>姓名</th>
+				<th>学号</th>
+				<th>操作</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>wsj</td>
+				<td>123</td>
+				<td></td>
+			</tr>
+		</table>
+	</body>
+
+</html>
