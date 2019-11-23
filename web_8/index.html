@@ -6,7 +6,7 @@
 		<title>学生信息登记表</title>
 		<link rel="stylesheet" href="css/new_file.css" />
 		<script type="text/javascript">
-			var count = 2;
+			var count = 1;
 
 			function createNewTr() {
 				var table = document.getElementById("tab");
@@ -30,7 +30,7 @@
 				td3.innerHTML = document.myform.xingbie.value;
 
 				td4 = document.createElement("td");
-				td4.innerHTML = "<a href='javascript:void(0)' onclick='deleteTr()'></a>"
+				td4.innerHTML ="<a href='javascript:void(0);' onclick='deleteTr(this)'>删除</a>"
 
 				table.append(newTr);
 				  newTr.appendChild(td1);
@@ -42,10 +42,9 @@
 			}
 
 			function deleteTr(obj) {
-				tr = obj.parentNode.parentNode;
-				tboby = tr.parentNode;
-				tr.removeChild(obj);
+				obj=obj.parentNode.parentNode.parentNode.removeChild(obj.parentNode.parentNode);
 			}
+
 		</script>
 	</head>
 
@@ -54,7 +53,8 @@
 			<p align="center">学生登记信息表</p>
 		</div>
 		<form name="myform">
-			NAME:<input type="text" name="xingming" /> NUMBER:
+			NAME:<input type="text" name="xingming" /> 
+			NUMBER:
 			<input type="number" name="xingbie" />
 		</form>
 		<button onclick="createNewTr()">增加</button>
@@ -70,7 +70,7 @@
 				<td>1</td>
 				<td>wsj</td>
 				<td>123</td>
-				<td></td>
+				<td><button onclick="deleteTr(this)">删除</button></td>
 			</tr>
 		</table>
 	</body>
