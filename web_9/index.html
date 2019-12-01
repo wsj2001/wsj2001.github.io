@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="css/new_file.css"></link>
+		<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
+		</script>
+		<script>
+			var links = document.getElementsByClassName('link')
+			for(var i = 0; i <= links.length; i++)
+				addClass(i)
+
+			function addClass(id) {
+				setTimeout(function() {
+					if(id > 0) links[id - 1].classList.remove('hover')
+					links[id].classList.add('hover')
+				}, id * 750)
+			}
+		</script>
+		<title></title>
+	</head>
+
+	<body>
+		<center class="head0" id="one">
+			<div class="wengzi">
+				<p style="font-weight: bold; font-size: 75px;">This is Wang Senjie </p>
+				<p> come from xinjiang</p>
+			</div>
+			<a href="#jieshao" class="xiahua">Next</a>
+		</center>
+		<div class="body-1" id="jieshao">
+			<div class="jieshao-1">
+				<div class="p-1">
+					<p style="font-weight: bold; font-size: 75px; margin: 20px;"> 你是什么垃圾</p>
+					<p>一个帮助你解决垃圾分类困扰的APP</p>
+					<p>垃圾放在家门口，你的垃圾我来分。</p>
+				</div>
+				<div class="p-2">
+					<p>垃圾分类是当今最热的政策之一，垃圾分类是我国推行城市现代化的最重要的举措之一。但是垃圾分类是很多市民的烦恼，为解决这个烦恼“你是什么垃圾”诞生了。“你是什么垃圾”是一款解决市民对垃圾的分类认识不清，和对垃圾繁琐地分类一种有效的APP。</p>
+				</div>
+				<div class="p-3">
+					<p>1.首先，通过App垃圾分类识别初步粗分类。（App提供分类垃圾袋，用户通过App把相应的垃圾放到垃圾袋中） 2.其次，在一片区域范围内垃圾配送员会把垃圾从家门口把垃圾带到一个指定的区域进行统一分类。
+					</p>
+				</div>
+				<a href="#two" class="xiahua">Next</a>
+			</div>
+		</div>
+		<div class="picture-0" id="two">
+			<div class="daohang">
+				<div class="link">
+					<div class="text"><a href="#one">首页</a></div>
+				</div>
+				<div class="link">
+					<div class="text"><a href="https://wsj2001.github.io/wsj_web_work/index.html">关于我</a></div>
+				</div>
+				<div class="link">
+					<div class="text"><a href="https://wsj2001.github.io/wsj_web_work/index.html">App中心</a></div>
+				</div>
+				<div class="link">
+					<div class="text"><a href="">项目方案</a></div>
+				</div>
+				<div class="link">
+					<div class="text"><a href="">人才招聘</a></div>
+				</div>
+				<div class="link">
+					<div class="text"><a href="">联系我们</a></div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</body>
+
+</html>
