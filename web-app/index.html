@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>App中心</title>
+		<meta name="viewport" content="width=100%; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+
+		<script src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/swiper-3.4.0.jquery.min.js"></script>
+		<link rel="stylesheet" href="css/swiper-3.2.7.min.css" />
+		<style>
+			body {
+				min-width: 320px;
+				max-width: 640px;
+				margin: 0 auto;
+				color: #333;
+				padding: 0;
+				font-family: "Microsoft Yahei";
+				text-align: center;
+			}
+			
+			.container {
+				border: 1px solid #ccc;
+			}
+			
+			.swiper1 {
+				width: 100%;
+			}
+			
+			.swiper1 .selected {
+				color: #ec5566;
+				border-bottom: 2px solid #ec5566;
+			}
+			
+			.swiper1 .swiper-slide {
+				text-align: center;
+				font-size: 16px;
+				height: 50px;
+				display: -webkit-box;
+				display: -ms-flexbox;
+				display: -webkit-flex;
+				display: flex;
+				-webkit-box-pack: center;
+				-ms-flex-pack: center;
+				-webkit-justify-content: center;
+				justify-content: center;
+				-webkit-box-align: center;
+				-ms-flex-align: center;
+				-webkit-align-items: center;
+				align-items: center;
+				cursor: pointer;
+			}
+			
+			.swiper2 {
+				width: 100%;
+			}
+			
+			.swiper2 .swiper-slide {
+				height: calc(100vh - 50px);
+				background-color: #ccc;
+				color: #fff;
+				text-align: center;
+				box-sizing: border-box !important;
+				overflow-x: hidden !important;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="swiper-container swiper1">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide selected">首页</div>
+					<div class="swiper-slide">垃圾识别</div>
+					<div class="swiper-slide">缴费大厅</div>
+					<div class="swiper-slide">垃圾配送</div>
+					<div class="swiper-slide">我的</div>
+				</div>
+			</div>
+			<!-- swiper2 -->
+			<div class="swiper-container swiper2">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide swiper-no-swiping">
+						<div style="width: 100%;height: 100%;background-color: gainsboro;">
+							<div class="header">
+								<p align="center">你是什么垃圾</p>
+							</div>
+							<div class="main">
+								<p align="center" style="color: #EC5566; font-size:35px ;">用户登录</p>
+								<div id="login">
+									<form action="" method="">
+										<p><input type="text" name="user" id="user" placeholder="用户名"></p>
+										<p><input type="password" name="passw0rd" id="pwd" placeholder="密码"></p>
+										<p><input type="submit" id="submit" value="登录"></p>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide swiper-no-swiping">
+						<div class="header-1">
+							<img src="img/批注 2019-12-02 165142.png" width="100%" />
+						</div>
+						<div class="main-1">
+							<p>用户先通过垃圾识别进行初步的分类，根据垃圾扫描识别把垃圾的简单分类，用户可以把垃圾放在由公司指定的垃圾袋。</p>
+							<p>经过初步分类，用户可以把垃圾放在家门口，App会在每天固定的时间收集一个片区的垃圾。</p>
+							<p>经过垃圾的收集后，我们公司会统一的进行垃圾分类。我们公司会雇佣专业的垃圾分配员，对垃圾统一 分类——后期我公司会将生产垃圾智能分类机，将垃圾更好的分类。</p>
+						</div>
+					</div>
+					<div class="swiper-slide swiper-no-swiping"></div>
+					<div class="swiper-slide swiper-no-swiping"></div>
+					<div class="swiper-slide swiper-no-swiping"></div>
+					<div class="swiper-slide swiper-no-swiping"></div>
+					<div class="swiper-slide swiper-no-swiping"></div>
+					<div class="swiper-slide swiper-no-swiping"></div>
+					<div class="swiper-slide swiper-no-swiping"></div>
+					<div class="swiper-slide swiper-no-swiping"></div>
+				</div>
+			</div>
+
+		</div>
+
+		<script>
+			$(function() {
+				function setCurrentSlide(ele, index) {
+					$(".swiper1 .swiper-slide").removeClass("selected");
+					ele.addClass("selected");
+				}
+
+				var swiper1 = new Swiper('.swiper1', {
+					slidesPerView: 5.5,
+					paginationClickable: true,
+					spaceBetween: 10,
+					freeMode: true,
+					loop: false,
+					onTab: function(swiper) {
+						var n = swiper1.clickedIndex;
+					}
+				});
+				swiper1.slides.each(function(index, val) {
+					var ele = $(this);
+					ele.on("click", function() {
+						setCurrentSlide(ele, index);
+						swiper2.slideTo(index, 500, false);
+					});
+				});
+
+				var swiper2 = new Swiper('.swiper2', {
+					direction: 'horizontal',
+					loop: false,
+					onSlideChangeEnd: function(swiper) {
+						var n = swiper.activeIndex;
+						setCurrentSlide($(".swiper1 .swiper-slide").eq(n), n);
+						swiper1.slideTo(n, 500, false);
+					}
+				});
+			});
+		</script>
+	</body>
+
+</html>
