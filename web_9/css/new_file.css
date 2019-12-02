@@ -156,7 +156,7 @@ body {
 .jieshao-1 p {
 	margin: 30px 40px;
 	color: aliceblue;
-	font-size: 10px;
+	font-size: 20px;
 	margin: 15px;
 	top: 0;
 }
@@ -220,7 +220,7 @@ ul {
 .p-1 {
 	float: left;
 	text-align: left;
-	padding: 100px;
+	padding:2% 5%;
 }
 
 .clearfix:after {
@@ -237,19 +237,19 @@ ul {
 .p-2 {
 	width: 25%;
 	float: left;
-	padding: 85px 80px;
+	padding:2% 5%;
 	text-align: left;
 }
 
 .p-2 p {
-	font-size: 10px;
+	font-size: 20px;
 	margin: 15px;
 }
 
 .p-3 {
-	width: 25%;
+	width: 20%;
 	float: left;
-	padding: 85px 80px;
+	padding:2% 5%;
 	text-align: left;
 }
 
