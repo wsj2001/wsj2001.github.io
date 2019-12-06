@@ -221,6 +221,7 @@ ul {
 	float: left;
 	text-align: left;
 	padding:2% 5%;
+	width: 20%;
 }
 
 .clearfix:after {
