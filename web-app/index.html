@@ -73,8 +73,6 @@
 				<div class="swiper-wrapper">
 					<div class="swiper-slide selected">首页</div>
 					<div class="swiper-slide">垃圾识别</div>
-					<div class="swiper-slide">缴费大厅</div>
-					<div class="swiper-slide">垃圾配送</div>
 					<div class="swiper-slide">我的</div>
 				</div>
 			</div>
@@ -83,41 +81,78 @@
 				<div class="swiper-wrapper">
 					<div class="swiper-slide swiper-no-swiping">
 						<div style="width: 100%;height: 100%;background-color: gainsboro;">
-							<div class="header">
-								<p align="center">你是什么垃圾</p>
-							</div>
-							<div class="main">
-								<p align="center" style="color: #EC5566; font-size:35px ;">用户登录</p>
-								<div id="login">
-									<form action="" method="">
-										<p><input type="text" name="user" id="user" placeholder="用户名"></p>
-										<p><input type="password" name="passw0rd" id="pwd" placeholder="密码"></p>
-										<p><input type="submit" id="submit" value="登录"></p>
-									</form>
+							<div class="app-block">
+								<div class="cube">
+									<img src="img/复制 cube.png" class="img-responsive" alt="" />
 								</div>
+								<form>
+									<input type="text" class="text" value="" placeholder="邮箱" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = '';}">
+									<input type="password" value="" placeholder="密码" />
+									<div class="submit"><input type="submit" onClick="myFunction()" value="登录"></div>
+									<div class="clear"></div>
+									<p>
+										<a href="#">忘记密码 ?</a>
+									</p>
+								</form>
+								<p class="sign">建立新账号?
+									<a href="#"> 注册</a>
+								</p>
 							</div>
 						</div>
 					</div>
 					<div class="swiper-slide swiper-no-swiping">
-						<div class="header-1">
-							<img src="img/批注 2019-12-02 165142.png" width="100%" />
+						<div class="topnav">
+							<a class="active" href="">垃圾类别</a>
+							<div class="search-container">
+								<form action="/action_page.php">
+									<input type="text" placeholder="搜索.." name="search">
+									<button type="submit">提交</button>
+								</form>
+							</div>
 						</div>
-						<div class="main-1">
-							<p>用户先通过垃圾识别进行初步的分类，根据垃圾扫描识别把垃圾的简单分类，用户可以把垃圾放在由公司指定的垃圾袋。</p>
-							<p>经过初步分类，用户可以把垃圾放在家门口，App会在每天固定的时间收集一个片区的垃圾。</p>
-							<p>经过垃圾的收集后，我们公司会统一的进行垃圾分类。我们公司会雇佣专业的垃圾分配员，对垃圾统一 分类——后期我公司会将生产垃圾智能分类机，将垃圾更好的分类。</p>
+						<div class="picture">
+							<div class="picture-1"><img src="img/150968d4e10a5642eabe81c07388cd1e (1).jpg" width="100%" height="150px"></div>
+							<div class="picture-2">
+								<p>不可回收垃圾指可回收垃圾之外的垃圾，常见的有在自然条件下易分解的垃圾，如果皮、菜叶、剩菜剩饭、花草树枝树叶等。此外，有害的，有污染的，不能进行二次分解再造的都属于不可回收垃圾。</p>
+							</div>
+						</div>
+						<div class="picture">
+							<div class="picture-1"><img src="img/1575537345512.jpg" width="100%" height="150px"></div>
+							<div class="picture-4">
+								<p>湿垃圾，又称厨余垃圾。包括果皮、菜叶、剩菜剩饭、饭后垃圾等。湿垃圾回收后可以用来当做化肥，变废为宝。</p>
+							</div>
+						</div>
+						<div class="picture">
+							<div class="picture-1"><img src="img/3f84fc09ac92fa3dbdd088ae5dc496db (1).jpg" width="100%" height="150px"></div>
+							<div class="picture-2">
+								<p>可回收物就是可以再生循环的垃圾。本身或材质可再利用的纸类、硬纸板、玻璃、塑料、金属、塑料包装，与这些材质有关的如：报纸、杂志、广告单及其它干净的纸类等皆可回收。</p>
+							</div>
+						</div>
+						<div class="picture">
+							<div class="picture-1"><img src="img/timg.jpg" width="100%" height="150px"></div>
+							<div class="picture-4">
+								<p>分类投放有害垃圾时，应注意轻放。废弃药品宜连带包装一并投放；杀虫剂等压力罐装容器，应排空内容物后投放；在公共场所产生有害垃圾且未发现对应收集容器时，应携带至有害垃圾投放点妥善投放。</p>
+							</div>
 						</div>
 					</div>
-					<div class="swiper-slide swiper-no-swiping"></div>
-					<div class="swiper-slide swiper-no-swiping"></div>
-					<div class="swiper-slide swiper-no-swiping"></div>
-					<div class="swiper-slide swiper-no-swiping"></div>
-					<div class="swiper-slide swiper-no-swiping"></div>
-					<div class="swiper-slide swiper-no-swiping"></div>
-					<div class="swiper-slide swiper-no-swiping"></div>
-					<div class="swiper-slide swiper-no-swiping"></div>
+					<div class="swiper-slide swiper-no-swiping">
+                       <div class="geren">
+                       	<div class="picture-5">
+                       		<img src="img/image/hdImg_8a40e051161d487dfbc0dd9e54d5317d15756026974.jpg" width="75px" />
+                       	</div>
+                       	<div class="picture-5">
+                       		<p style="font-size: 25px;">name:</p>
+                       		<p>id：1652884876</p>
+                       	</div>
+                       </div>
+                       <div class="geren-0">
+                            <div class="picture-5"><img src="img/image/批注 2019-12-06 113736.png" width="45px"></div>
+                            <div class="picture-5"><p>你的套餐</p></div>
+                       </div>
+					</div>
 				</div>
 			</div>
+		</div>
 
 		</div>
 
